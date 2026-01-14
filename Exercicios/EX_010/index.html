@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 10</title>
+  </head>
+  <body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Veja como as imagens ele são responsivas apos esticar o navegador</p>
+    <picture>
+      <
+      <!--IMPORTANTE: A base é a imagem padrão assim como a imagem grande, e os sources sempre fica em cima-->
+      <source
+        media="(max-width: 750px)"
+        srcset="imagens/fotop.png"
+        type="image/png" />
+      <source
+        media="(max-width: 1050px)"
+        srcset="imagens/fotom.png"
+        type="image/png" />
+      <img src="imagens/fotog.png" alt="fotogrande"
+    /></picture>
+    <p>agora vamos aprender a reproduzir audio em html5</p>
+    <!--Para audio temos varios parametros que da o comando de audio usamos o preload que é a forma que o site vai carregar o audio dependentente do comando que você colocar, temos o autoplay que ele inicia após o site carregar, e o controls apararece a barrinha de som do audio -->
+    <audio preload="auto" autoplay controls>
+        <!--Comando de audio, CUIDADO: veja sempre o tipo do arquivo porque as vezes pode não funcionar dependendo da extensão-->
+        <source src="midia/Link Screams - Ocarina of Time.mp3" type="audio/mpeg">
+    </audio>
+    
+  </body>
+</html>

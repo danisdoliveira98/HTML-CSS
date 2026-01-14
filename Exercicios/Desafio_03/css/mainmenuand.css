@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Coolvetica;
+    src: url(../fontes/Coolvetica.otf);
+}
+@font-face {
+    font-family: idroid;
+    src: url(../fontes/idroid.otf);
+}
+
+body{
+    background-color: #e1d884;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: linear-gradient(to bottom,  #37C677, #000000c7);
+    padding-top: 1em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1#titCab{
+    font: normal 4em 'Coolvetica';
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.473);
+}
+
+h1{
+    
+    font-family: 'idroid';
+    color: #227a4a;
+    margin-left: 1em;
+    padding-bottom: 1em, 1em, 0em;
+}
+
+p.subCab{  
+    font: normal 16px 'Arial';
+    text-align: center;
+    color: white;
+    margin: 3em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.473);
+}
+
+p{
+    margin-left: 1em;
+    text-indent: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.footDaniel{
+    color: white;
+    font-size: 19px;
+    text-indent: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h2.extrasub{
+   background-image:linear-gradient(to right, #2fa866);
+   margin: 1em 0em 1em 0em; 
+   color: rgb(255, 255, 255);
+   padding: 10px 1em;
+   font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
+   border-radius: 15px 15px 0px 0px ;
+}
+
+h2{
+    margin-left: 1em;
+    font-family: 'idroid';
+    color: #15502f;
+    background-image:linear-gradient(to right, #9de4bb, white);
+}
+a.menu{
+    color: white;
+    font: bold 1em 'Arial';
+    margin: 1em;
+    padding: 9px 9px 0 9px;
+    transition: background-color 0.3s ease-out, transform 0.3s ease-out;
+}
+
+a.menu:hover{
+    background-color: rgba(0, 0, 0, 0.575);
+    border-radius: 5px;
+    color: #99eebf;
+    transform: scale(1.05); 
+}
+
+main{  
+    background-color: white;
+    margin: auto;
+    padding: 1em 1em 1em;
+    width: 50%;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+img.bugdroidimg{
+    width: auto;
+    max-width: 100%;  
+}
+
+img{
+    margin: auto;
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;  
+}
+
+iframe{
+    width: 100%;
+    max-width: 100%;   
+}
+
+section.video{
+    padding: 1em;
+    background-image: linear-gradient(to right, #9de4bb, #227a4a );
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.247);
+}
+
+section.extra{
+    background-color: #9de4bb;
+    border-radius: 15px 15px 15px 15px ;
+    padding-bottom: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.left-text, div.right-text {
+  flex: 1; /* Makes both columns take up equal width */
+  padding: 10px;
+  border: 1px 
+}
+
+div.flex-container {
+  display: flex;
+  justify-content: space-between; /* Puts space between the items */
+  gap: 20px; /* Adds a gap between the columns */
+}
+
+ul li::marker{
+    font: bold 1em 'Arial';
+    content: "✓  ";
+    
+}
+
+footer{
+    background-image: linear-gradient(to bottom,#1A5C38,#0e311e);
+    text-align: center;
+    padding: 1em;
+}
+
+

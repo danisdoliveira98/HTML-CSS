@@ -1,0 +1,366 @@
+@charset "utf-8";
+
+
+@font-face {
+
+    font-family: speedee;
+    src: url(../font/Speedee-Bold.ttf);
+
+}
+
+@keyframes floater {
+    0% {
+        transform: translateY(0); 
+        transform: translateX(0); 
+    }
+    50% {
+        transform: translateY(5px);
+        transform: translateX(-5px); 
+    }
+    75% {
+        transform: translateY(-5px); 
+        transform: translateX(5px); 
+    }
+    100%{
+        transform: translateY(0); 
+        transform: translateX(0); 
+    }
+}
+
+@keyframes slidein {
+    from {
+        transform: translateX(100vw);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes appears {
+    from {   
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+:root{
+
+    --cor0: #F28627;
+    --cor1: #F24607;
+    --cor2: #A60D0D;
+    --cor3: #590902;
+    --cor4: #A69C14;
+    --BCor: #ffc300;
+
+}
+
+*{
+
+    padding: 0%;
+    margin: 0%;
+
+}
+
+body{
+
+background-color: var(--BCor);
+background-image: url(../imagens/hamburguer-image.png);
+background-repeat: no-repeat;
+background-position: bottom right;
+font-family: arial;
+    
+}
+
+nav{
+
+    text-align: right;
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor2)) ;
+    padding: 30px;
+    height: 30px;
+
+}
+
+nav a.login{
+
+    background-color: var(--cor0);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0px 0px 0px 30px;
+    font-size: 1em;
+    transition: 0.5s;
+
+}
+
+nav a.login:hover{
+
+    background-color: var(--cor0);
+    border-radius: 20px;
+    padding: 18px;
+    margin: 0px 0px 0px 30px;
+    font-size: 1.2em;
+    transition: 0.5s;
+
+}
+
+nav a{
+
+    font-family: speedee;
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+    animation-name: slidein;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards; 
+    opacity: 0; 
+
+}
+
+nav a:hover{
+
+    background-color: #420802;
+    font-family: speedee;
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+header {
+
+    display: flex;
+    padding-top: 100px;
+    background-image: linear-gradient(to bottom, var(--cor2),var(--cor1),var(--BCor));
+
+}
+
+header img.flootlogo{
+ 
+    height: auto;
+    padding-bottom: 50px;
+    padding-left: 100px;  
+    animation-name: floater, appears;
+    animation-duration: 25s, 3s;
+    animation-iteration-count: infinite, 1;
+    animation-timing-function: ease-in-out;
+     
+}
+
+header h1{
+
+    color: white;
+    font-family: speedee;
+    animation-name: slidein;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards; 
+    font-size: 3vw;
+
+}
+
+main{
+
+    background-color: white;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 40px;
+    width: 60%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212);
+
+}
+
+main h1{
+
+    font-family: speedee;
+    color: var(--cor0);
+    text-shadow: 2px 2px 1px #000000c9;
+    padding-bottom: 30px;
+    
+}
+
+main h2{
+
+    color:  #fdad35;
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3));
+    border-radius: 0px 0px 10px 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+
+}
+
+main p{
+
+    text-indent: 2em;
+    font-size: 1.2rem; 
+    padding-bottom: 20px;
+    word-break: keep-all;
+
+}
+
+main strong{
+
+    color: var(--cor2);
+
+}
+
+main img{
+
+    display: block;
+    margin: auto;
+    max-width: 75%;
+    padding: 20px;
+
+}
+
+
+iframe{
+
+    width: 100%;
+    max-width: 100%;
+
+}
+
+
+section.video{
+
+    border-radius: 10px;
+    padding: 1em;
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.251);
+    margin: 1em;
+    
+    
+}
+
+aside li{
+
+    padding: 5px;
+
+}
+
+aside.ingredientes{
+ 
+    background-color: var(--cor3);
+    border-radius: 1em;
+    margin: 1em;
+    
+}
+
+aside.prepare{
+ 
+    background-color: var(--cor3);
+    border-radius: 0em 0em 1em 1em;
+      
+}
+
+aside.ingredientes h3{
+
+    background-color: var(--cor2);
+    padding: 1em; 
+    color: var(--BCor);
+    border-radius: 0em 0em 1em 1em;
+    margin: 1em 0em 1em 0em;
+    font-family: speedee;
+    font-size: 1.4em;
+
+}
+
+aside.prepare h3{
+
+    background-color: var(--cor2);
+    padding: 1em; 
+    color: var(--BCor);
+    border-radius: 0em 0em 1em 1em;
+    margin: 1em 0em 1em 0em;
+    font-family: speedee;
+    font-size: 1.4em;
+    
+}
+
+ul li::marker{
+    font: bold 1em 'Arial';
+    content: "✓  ";
+    color: white;
+    
+}
+
+div.recipe{
+
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 0em 2em 2em 2em;
+    font-size: 0.8rem;
+    word-break: keep-all;
+
+}
+
+div.preparemod{
+
+    padding: 0em 2em 2em 2em;
+    font-size: 0.8rem;
+    word-break: keep-all;
+ 
+}
+
+div.preparemod strong{
+    
+    color: white;
+
+}
+
+div.recipe strong{
+
+    color: white;
+
+}
+
+footer{
+
+    font-family: speedee;
+    font-size: clamp(0.7rem, 1vw, 0.8rem);
+    text-align: center;
+    background-image: linear-gradient(to top ,var(--cor1),var(--cor0),var(--BCor),#ffc40000);
+    padding: 100px 0px 10px 0px;
+    color: white;
+
+}
+
+footer strong{
+
+
+    color: var(--cor0);
+    background-color: var(--cor2);
+    padding: 5px;
+    margin: 0px 5px 0px 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+footer strong:hover{
+
+    color: var(--BCor);
+    background-color: var(--cor2);
+    padding: 5px;
+    margin: 0px 5px 0px 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+
+}
+
+footer a{
+    
+    text-decoration: none;
+
+}

@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'aof';
+    src: url(../fonts/Act_Of_Rejection.ttf);
+}
+body{
+    font-family: serif;
+    background-image: linear-gradient(
+        to left,
+        #F2E205,
+        #F27405 20%,
+        #8C0303
+    );
+}
+main{
+    margin: auto;
+    background-color: beige;
+    padding: 25px;
+    width: 60%;
+    border-radius: 20px;   
+    box-shadow: 5px 5px 5px #F27405;
+}
+
+img{
+    display: block;
+    margin: auto;
+    transition: transform 0.3s ease;
+    transform: scale(1.0);
+}
+
+img:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+h1{
+    text-align: center;
+    font-family: 'aof';
+    color: #eb7004;
+    text-shadow: 2px 2px 5px  #58290d;
+    
+}
+
+h2{
+    text-align: center;
+    color: #eb7004;
+    text-shadow: 1px 1px 3px  #974617;  
+}
+
+a{ 
+    font-family: 'aof';
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>caixa02</title>
+    <style>
+      body {
+        background-color: #adadad;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      nav {
+        background-color: #adadad;
+        /*inset é sombra internamente preenchida*/
+        box-shadow: 8px 9px 12px 2px rgba(0, 0, 0, 0.466);
+        margin: 10px 1px;
+        padding: 10px 20px 5px;
+        border-radius: 5px 20px;
+      }
+      nav > a {
+        color: white; 
+      }
+
+      header {
+        background-color: white;
+        padding: 10px 5px;
+        margin: 30px 5px;
+        box-shadow: 8px 9px 12px 2px rgba(0, 0, 0, 0.466);
+        border-radius: 5px 20px;
+      }
+
+      h1 {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      main {
+        background-color: white;
+        padding: 10px 5px;
+        margin: 50px 0px;
+        border-radius: 5px;
+        box-shadow: 8px 9px 12px 2px rgba(0, 0, 0, 0.466);
+      }
+      footer {
+        background-color: rgb(54, 54, 54);
+        color: white;
+        padding: 16px;
+        margin: 0;
+        text-align: center;
+        border-radius: 5px 20px;
+        box-shadow: 8px 9px 12px 2px rgba(0, 0, 0, 0.466);
+      }
+
+      footer > p {
+        margin: 0;
+      }
+
+      article {
+        background-color: #adadad;
+      }
+      article > aside {
+        color: white;
+        background-color: rgb(109, 109, 109);
+      }
+      div#bola{
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        margin: 20px auto;
+        border-radius: 50%;
+        box-shadow: 8px 9px 12px 2px rgba(0, 0, 0, 0.466);
+      }
+    </style>
+  </head>
+  <body>
+    <!--É um cabeçalho dentro de body diferente da head, header é uma div assim como uma main, uma nav, uma footer -->
+    <header>
+      <h1>Meu Site</h1>
+      <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Section 01</h2>
+      <section>
+        <article>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quae
+          esse consequatur ea reprehenderit commodi deserunt praesentium,
+          <aside>
+            assumenda soluta amet ipsum? Iure aliquid ipsam illum ab maiores
+            nostrum quos dignissimos.
+          </aside>
+        </article>
+        <article>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Reprehenderit temporibus a incidunt ratione labore cumque eligendi
+          beatae nobis aliquam enim, obcaecati eum quae est, tempore magni culpa
+          nemo fugiat reiciendis!
+        </article>
+      </section>
+      <h2>Section 02</h2>
+      <section>
+        <article>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente ut
+          quas eum ipsa facere nulla voluptate in? Fugit nulla similique at
+          rerum eaque animi, nemo minus, non vel cupiditate consectetur!
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere,
+        voluptatum ipsam earum ex saepe iste, aperiam assumenda sequi
+        reprehenderit in tenetur doloribus quis. Ducimus accusamus quam, ea odit
+        at possimus!
+      </p>
+    </footer>
+    <div id="bola"></div>
+  </body>
+</html>

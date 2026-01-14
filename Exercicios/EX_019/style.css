@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*
+em HTML é id = em CSS é #
+em HTML é class = em CSS é.
+
+Id só pode um elemento
+Class pode varios elemento
+
+um Id sempre vai sobrepor uma class
+*/
+
+body{
+
+    background-image: linear-gradient(to top, #41e3fe)
+}
+
+h1#principal{
+    color: steelblue;
+    text-align: center;
+}
+
+h1{
+    color: rgb(70, 72, 180)
+}
+
+.basico{
+    color:aqua;
+    font-style: bold;
+}
+
+.intermedio{
+    color: greenyellow;
+}
+
+.avançado{  
+    color: orange;
+}
+
+.destaque{
+    background-color: blue;
+}

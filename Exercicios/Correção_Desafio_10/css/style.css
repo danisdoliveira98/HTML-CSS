@@ -1,0 +1,269 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+CU:wght@100..400&display=swap');
+
+@font-face {
+    font-family: Android;
+    src: url(../fontes/idroid.otf);
+}
+
+/*-------- PASSOS DE VARIAVEIS --------------*/
+
+/* Em css a importancia do root é de alta prioridade, em todo projeto vai ter root em css, basicamente ele serve para declarar variaveis*/
+
+:root{
+
+    --cor0: #ebe5c5;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #1a5c37;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue';
+    --fonte-android: 'Android';
+
+}
+
+/*-------- PASSOS DE VARIAVEIS --------------*/
+
+/*-------- SELETOR UNIVERSAL --------------*/
+
+*{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+/*-------- SELETOR UNIVERSAL --------------*/
+
+body{
+
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+
+}
+
+a.externo::after{
+    content: '\00A0\1F517';
+}
+
+header{
+
+    padding-top: 40px;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor5));
+    min-height: 150px;
+    text-align: center;
+
+}
+
+header > h1{
+
+    color: white;
+    margin-bottom: 30px;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    text-shadow: 2px 2px 5px #000000d1;
+    font-weight: normal;
+
+}
+
+header > p{
+
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 2px 2px 5px #000000d1;
+
+}
+
+nav{
+
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.719);
+
+}
+
+nav a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    padding: 5px;
+    background-color: var(--cor4);
+    color: var(--cor2);
+}
+
+main{
+
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    min-width: 280px;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.671);
+
+}
+
+main img{
+
+    width: 100%;
+
+}
+
+
+main img.pequeno{
+
+    max-width: 30%;
+    padding: 30px;
+    display: block;
+    margin: auto;
+
+}
+
+main  h1{
+
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+    font-weight: normal;
+
+}
+
+main  h2{
+
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+    background-image: linear-gradient(to right, var(--cor2), white);
+    text-indent: 8px;
+    font-weight: normal;
+
+}
+
+main p{
+
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 23px;
+    line-height: 2em;
+    font-size: 1em;
+
+}
+
+main strong{
+
+    color: var(--cor3);
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+main a{
+
+    color: var(--cor4);
+    font-weight: bold;
+    background-color: var(--cor1);
+
+}
+
+main a:hover{
+    
+    color: var(--cor1);
+    background-color: var(--cor4);
+    transition: 0.5s;
+
+}
+
+div.video{
+    background-color: var(--cor3);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;;
+    position: relative;
+  
+
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside{
+    background-color: var(--cor1);
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.26);
+
+}
+
+aside > ul{
+    
+    list-style-type: '\00A0\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
+    
+
+}
+
+aside > h3{
+
+    background-image: linear-gradient(to right,var(--cor4),var(--cor2));
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 10px;
+}
+
+aside > p{
+    padding: 10px;
+}
+
+footer{
+
+    background-color: var(--cor5);
+    padding: 1em;
+
+}
+
+footer > p{
+
+    color:white;
+    text-align: center;
+    font-size: 1.2em;
+ 
+    
+}
+
+footer > p > a{
+    
+    color: var(--cor2);
+    background-color: var(--cor4);
+    border-radius: 5px;
+    transition: 0,5s;
+    
+}
+
+footer > p > a:hover{
+
+    color: var(--cor4);
+    background-color: var(--cor2);
+    transition: 0.5s;    
+    border-radius: 5px;
+
+}

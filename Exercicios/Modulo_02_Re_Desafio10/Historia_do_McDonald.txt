@@ -1,0 +1,131 @@
+
+Título 
+-------------------
+Info - Mcdonald
+-------------------
+
+Nav
+-------------------
+
+Home
+
+Cardapio
+
+lançamento
+
+Curiosidades
+
+Sobre
+
+Entrar
+
+-------------------
+
+Header 
+-------------------
+[Imagem logo]
+
+Sua vida e mais feliz com McDonald.
+
+-------------------
+
+Main {
+
+**A história do McDonald’s**
+
+O McDonald’s começou em **1940**, nos Estados Unidos, quando os irmãos **Richard e Maurice McDonald** abriram um restaurante na Califórnia. Eles criaram um sistema inovador de preparo rápido de comida, focado em poucos itens, como hambúrgueres, batatas fritas e milk-shakes.
+
+Em **1954**, um vendedor chamado **Ray Kroc** viu potencial no negócio e ajudou a transformá-lo em uma grande rede por meio do sistema de **franquias**. Em **1961**, Kroc comprou a empresa e expandiu o McDonald’s pelo mundo.
+
+Hoje, o McDonald’s é uma das **maiores redes de fast-food do planeta**.
+
+[Imagem McDonald]
+
+A **ideia da logo do McDonald’s** surgiu a partir da **arquitetura dos restaurantes**, e não diretamente de um desenho pensado como marca.
+
+No início dos anos 1950, os restaurantes do McDonald’s tinham **dois grandes arcos amarelos** nas laterais do prédio. Eles serviam para chamar atenção de quem passava de carro, já que muitos clientes vinham das estradas.
+
+Com o tempo, esses **dois arcos foram unidos visualmente**, formando a letra **“M”**, que representava o nome **McDonald’s**. Em **1962**, essa forma passou a ser usada oficialmente como logotipo.
+
+O **amarelo** foi escolhido porque transmite **alegria, energia e visibilidade**, enquanto o **vermelho** (usado junto depois) estimula o apetite — algo muito usado em marcas de comida.
+
+Hoje, o **“M” dourado** é um dos símbolos mais reconhecidos do mundo e representa rapidez, comida acessível e presença global.
+
+[ Imagem dos irmaos McDonald ]
+
+Os irmãos **Richard (Dick) e Maurice (Mac) McDonald** eram filhos de imigrantes e começaram trabalhando em pequenos negócios. Nos anos 1930, eles abriram um **drive-in** na Califórnia, onde garçons atendiam clientes em carros. O problema era que o serviço era lento e caro.
+
+Em **1948**, eles tiveram uma grande ideia: **simplificar tudo**. Fecharam o restaurante por alguns meses e o reabriram com:
+
+- um **cardápio bem pequeno** (hambúrguer, batata frita e bebida),
+- **sem garçons**,
+- comida preparada em **linha de montagem**.
+
+Isso ficou conhecido como o **“Speedee Service System”**, que tornava o atendimento muito rápido e barato. O mascote original, inclusive, se chamava **Speedee** (antes do palhaço Ronald).
+
+O restaurante fez muito sucesso localmente, mas os irmãos **não tinham interesse em expandir muito**. Eles preferiam manter poucos restaurantes e uma vida mais tranquila.
+
+Foi aí que apareceu **Ray Kroc**, que enxergou um enorme potencial de crescimento. Embora o negócio tenha virado um império mundial, os irmãos McDonald **não ficaram tão ricos quanto ele**, pois venderam os direitos da empresa cedo.
+
+[Video Preparo macdonald]
+
+
+Aside receita
+
+-------------------
+
+EXTRA 
+
+## Receita de Hambúrguer Simples
+
+### **Ingredientes (para 2 hambúrgueres):**
+
+- 200 g de **carne moída** (patinho ou acém)
+- 1 pitada de **sal**
+- 1 pitada de **pimenta-do-reino** (opcional)
+- 2 pães de hambúrguer
+- 2 fatias de **queijo** (muçarela ou cheddar)
+- Alface, tomate e molho (opcional)
+- Ovo (Opcional)
+
+-------------------
+
+Aside Preparo
+
+-------------------
+
+extra 2
+
+1. **Modele a carne**
+    
+    Divida a carne em duas partes e molde em formato redondo e achatado. Não aperte demais.
+    
+2. **Tempere**
+    
+    Coloque o sal e a pimenta **apenas por fora**, pouco antes de grelhar.
+    
+3. **Grelhe o hambúrguer**
+    
+    Aqueça uma frigideira ou chapa.
+    
+    Coloque o hambúrguer e deixe cerca de **2 a 3 minutos de cada lado**, sem ficar apertando.
+    
+4. **Coloque o queijo**
+    
+    Quando virar o hambúrguer, coloque o queijo por cima e deixe derreter.
+    
+5. **Monte o lanche**
+    
+    Abra o pão, coloque o hambúrguer com queijo e acrescente alface, tomate e molho, se quiser.
+
+-------------------
+
+-------------------
+
+Footer
+
+-------------------
+
+Projeto criado por Daniel Oliveira baseado nos estudos do cursos em video
+
+-------------------
