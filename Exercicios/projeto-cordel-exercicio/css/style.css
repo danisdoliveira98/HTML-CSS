@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: PassionOne;
+    src: url(../font/PassionOne-Regular.ttf);
+}
+
+@font-face{
+    font-family: Sriracha;
+    src: url(../font/Sriracha-Regular.ttf);
+}
+
+
+:root{
+
+    --font01: Sriracha;
+    --font02: PassionOne;
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+
+    background-color: orange;
+
+}
+
+header{
+
+    color: white;
+    text-align: center;
+    font-size: 3.5vh;
+    
+}
+
+header h1{
+
+    font: bold 10vh var(--font02);
+    margin-bottom: 3vh;
+
+
+}
+
+header p{
+
+    font: 2.5vh 'Verdana';
+    padding-bottom: 5vh;
+    
+}
+
+#art01{
+
+    background-color: white;
+    
+}
+
+
+article.artigo{
+
+    font: normal 8vh var(--font01);
+     
+}
